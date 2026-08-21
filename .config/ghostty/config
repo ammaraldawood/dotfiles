@@ -1,0 +1,71 @@
+# Ghostty config. Docs: https://ghostty.org/docs/config
+# Comments must be on their own line.
+
+mouse-hide-while-typing = true
+
+# macOS only; Ghostty ignores this on Linux
+macos-titlebar-style = tabs
+
+# ==============================================================================
+# Custom Color Palette
+# ==============================================================================
+background = #142435
+foreground = #ffffff
+cursor-text = #000000
+selection-background = #3a689a
+selection-foreground = #ffffff
+
+palette = 0=#070c12
+# darkestblue
+palette = 1=#ff8c00
+# orange
+palette = 2=#93b3d6
+# lightestblue
+palette = 3=#ffb254
+# lighterorange
+palette = 4=#3a689a
+# lighterblue
+palette = 5=#ab5e00
+# darkerorange
+palette = 6=#cccccc
+# lightergrey
+palette = 7=#999999
+# lightgrey
+palette = 8=#666666
+# darkgrey
+palette = 9=#ff8c00
+# orange
+palette = 10=#ffffff
+# white
+palette = 11=#ffd8a8
+# lightestorange
+palette = 12=#93b3d6
+# lightestblue
+palette = 13=#ffb254
+# lighterorange
+palette = 14=#cccccc
+# lightergrey
+palette = 15=#ffffff
+# white
+
+cursor-style = block
+
+cursor-style-blink = true
+
+custom-shader = shaders/WIP.glsl
+# Courtesy of Linkarzu on YouTube
+
+font-family = Monaspace Argon Var
+font-family-bold = Monaspace Xenon Var
+font-family-italic = Monaspace Radon Var
+font-family-bold-italic = Monaspace Krypton Var
+# Mapped through the Neovim plugin monaspace.nvim
+
+font-variation = wght=800
+# Makes text legible at lower brightness levels
+
+font-feature = +calt, +liga
+# For texture healing and customized spacing
+
+font-size = 12.5
+# About 80 columns per vertical half-split on a 13-inch laptop. Adjust for your screen.

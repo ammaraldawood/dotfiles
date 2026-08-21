@@ -1,0 +1,14 @@
+# macOS-specific files
+.DS_Store
+
+# Editor backups and temporary files
+*~
+*.swp
+*.swo
+
+# Ignore potential local/backup files
+*.bak
+.zshrc.bak*
+
+# Neovim logs
+.config/nvim/nvim.log
